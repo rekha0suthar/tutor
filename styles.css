@@ -13,11 +13,6 @@ body {
   --font-36: 36px;
 }
 
-.container {
-  margin-right: -50px;
-  position: relative;
-}
-
 nav {
   position: fixed;
   top: 0;
@@ -70,15 +65,16 @@ li {
 .active {
   color: var(--button-bg-color);
 }
-
+/* 
 .menu-toggle {
   width: 130px;
-}
+} */
 
 .menu-toggle i {
   font-size: 28px;
   display: none;
   cursor: pointer;
+  margin-right: 50px;
 }
 
 .nav-mobile-menu-list {
@@ -190,7 +186,7 @@ main {
   font-size: var(--font-16);
   word-wrap: break-word;
   margin: 0;
-  width: 250px;
+  max-width: 250px;
 }
 
 .gallery img {
