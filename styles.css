@@ -240,13 +240,16 @@ hr {
 }
 
 .course-summary {
-  margin: -20px;
+  max-width: var(--max-width-1100);
+  margin: 0 auto;
 }
 
 .course {
   background-color: var(--color-white);
   padding: 10px;
-  margin-top: 40px;
+  margin-top: 40px !important;
+  max-width: var(--max-width-1100);
+  margin: 0 auto;
 }
 
 .course h6 {
@@ -554,7 +557,8 @@ footer {
 }
 
 .course-container,
-.stats-container {
+.stats-container,
+.gallery-container {
   margin-top: 50px;
 }
 
@@ -656,10 +660,6 @@ footer {
 
   .stats-wrapper {
     padding: 60px 20px;
-  }
-
-  .wrapper {
-    margin: 0 -50px;
   }
 
   .footer {
